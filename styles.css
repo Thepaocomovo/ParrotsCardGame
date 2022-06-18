@@ -64,6 +64,9 @@
 .selected {
     transform: rotateY(180deg);
 }
+.fixed{
+    transform: rotateY(180deg);
+}
 
 .card:hover{
     width: 125px;
@@ -91,6 +94,17 @@
     width: 100px;
     height: 100px;
 } 
+.card.fixed:hover{
+    width: 117px;
+    height: 146px;
+    margin-right: 31px;
+    margin-bottom: 31px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+.fixed:hover img{
+        width: 100px;
+        height: 100px;
+    } 
 
 
 
